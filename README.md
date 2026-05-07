@@ -1,20 +1,76 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Franck Mobility - Excellence de la Mobilité à Lomé
 
-# Run and deploy your AI Studio app
+Franck Mobility est une application web moderne dédiée au service de location de véhicules de luxe avec chauffeur à Lomé, Togo. Conçue pour offrir une expérience utilisateur haut de gamme, elle combine un design raffiné avec des fonctionnalités de réservation intuitives.
 
-This contains everything you need to run your app locally.
+## 🚀 Aperçu du Projet
 
-View your app in AI Studio: https://ai.studio/apps/40fdfa28-d030-4b39-9606-b144b4c4025f
+L'application propose :
+- **Diaporama Hero Immersif** : Une présentation élégante des services et de l'ambiance prestige.
+- **Catalogue de Véhicules** : Une sélection rigoureuse de voitures d'exception (SUV, Berlines, Luxe).
+- **Services VIP** : Chauffeurs professionnels, accueil aéroportuaire, accompagnement événements.
+- **Demande de Devis Express** : Intégration directe pour des réponses rapides via WhatsApp.
+- **Interface Progressive** : Support complet du mode sombre et clair avec des animations fluides.
 
-## Run Locally
+## 🛠️ Stack Technique
 
-**Prerequisites:**  Node.js
+- **Frontend** : [React 19](https://react.dev/)
+- **Build Tool** : [Vite 6](https://vitejs.dev/)
+- **Styling** : [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations** : [Motion](https://motion.dev/)
+- **Icônes** : [Lucide React](https://lucide.dev/)
+- **Langage** : TypeScript
 
+## 📋 Prérequis
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Avant de commencer, assurez-vous d'avoir installé :
+- [Node.js](https://nodejs.org/) (version 18 ou supérieure recommandée)
+- [npm](https://www.npmjs.com/) (généralement inclus avec Node.js)
+
+## ⚙️ Installation
+
+1. **Cloner le projet** (si applicable) :
+   ```bash
+   # Téléchargez les fichiers ou clonez le dépôt
+   ```
+
+2. **Installer les dépendances** :
+   ```bash
+   npm install
+   ```
+
+3. **Lancer le serveur de développement** :
+   ```bash
+   npm run dev
+   ```
+   L'application sera accessible sur `http://localhost:3000`.
+
+## 🏗️ Build & Production
+
+Pour générer une version de production optimisée dans le dossier `dist/` :
+
+```bash
+npm run build
+```
+
+Pour prévisualiser le build localement :
+
+```bash
+npm run preview
+```
+
+## 📂 Structure des Fichiers
+
+- `src/App.tsx` : Composant principal contenant toute la logique et les sections de l'application.
+- `src/index.css` : Configuration globale de Tailwind CSS et des variables de thème.
+- `metadata.json` : Informations sur l'application utilisées par la plateforme.
+
+## 🌟 Caractéristiques Clés
+
+- **Mode Sombre/Clair** : Adaptation dynamique de l'interface selon les préférences de l'utilisateur.
+- **Bouton de retour en haut** : Navigation facilitée sur les longues pages.
+- **Design Réactif** : Expérience optimisée pour mobiles, tablettes et ordinateurs.
+- **Performance** : Chargement rapide et transitions fluides grâce à Vite et Motion.
+
+---
+
+Développé avec passion pour **Franck Mobility** — L'exigence au service de vos déplacements.
